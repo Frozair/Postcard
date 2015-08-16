@@ -13,6 +13,7 @@
 		20C16EF61B806AA500559546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C16EF51B806AA500559546 /* Images.xcassets */; };
 		20C16EF91B806AA500559546 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C16EF71B806AA500559546 /* LaunchScreen.xib */; };
 		20C16F051B806AA500559546 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C16F041B806AA500559546 /* PostcardTests.swift */; };
+		20C16F0F1B809CE000559546 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20C16F0E1B809CE000559546 /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		20C16EFE1B806AA500559546 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C16F031B806AA500559546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C16F041B806AA500559546 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		20C16F0E1B809CE000559546 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		20C16EEC1B806AA500559546 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20C16F0E1B809CE000559546 /* SagradaFamilia.jpeg */,
 				20C16EED1B806AA500559546 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20C16EF41B806AA500559546 /* Main.storyboard in Resources */,
+				20C16F0F1B809CE000559546 /* SagradaFamilia.jpeg in Resources */,
 				20C16EF91B806AA500559546 /* LaunchScreen.xib in Resources */,
 				20C16EF61B806AA500559546 /* Images.xcassets in Resources */,
 			);
