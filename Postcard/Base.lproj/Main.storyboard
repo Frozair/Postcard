@@ -59,10 +59,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F4K-Uy-k43">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="F4K-Uy-k43">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="304" y="84" width="80" height="80"/>
+                                    <rect key="frame" x="235" y="85" width="80" height="80"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -103,6 +103,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AlbertEinsteinStamp.jpg" width="1917" height="1344"/>
         <image name="SagradaFamilia.jpeg" width="205" height="245"/>
     </resources>
 </document>
