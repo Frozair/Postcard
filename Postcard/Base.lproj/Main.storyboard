@@ -65,6 +65,14 @@
                                     <rect key="frame" x="275" y="85" width="80" height="80"/>
                                 </variation>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="arp-P2-ZW7">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="194" width="339" height="30"/>
+                                </variation>
+                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4el-RC-uw2">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -83,15 +91,10 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="312" width="339" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w8T-3W-jmW"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="arp-P2-ZW7">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="194" width="339" height="30"/>
-                                </variation>
-                            </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IW4-IC-uNK">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -106,22 +109,27 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="F4K-Uy-k43"/>
+                                <exclude reference="arp-P2-ZW7"/>
                                 <exclude reference="4el-RC-uw2"/>
                                 <exclude reference="zm6-Mf-Ep1"/>
-                                <exclude reference="arp-P2-ZW7"/>
                                 <exclude reference="IW4-IC-uNK"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="F4K-Uy-k43"/>
+                                <include reference="arp-P2-ZW7"/>
                                 <include reference="4el-RC-uw2"/>
                                 <include reference="zm6-Mf-Ep1"/>
-                                <include reference="arp-P2-ZW7"/>
                                 <include reference="IW4-IC-uNK"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="enterMessageTextField" destination="4el-RC-uw2" id="Uqx-lD-fVb"/>
+                        <outlet property="enterNameTextField" destination="arp-P2-ZW7" id="9va-gP-nFb"/>
+                        <outlet property="messageLabel" destination="IW4-IC-uNK" id="uRp-My-hKz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
